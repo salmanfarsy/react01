@@ -73,7 +73,7 @@ justify-content: space-between;
   margin: auto;
 }
 
-.cart button{
+.cart-card button{
   color: hotpink;
   border-color: hotpink;
   background-color: transparent;
@@ -82,8 +82,23 @@ justify-content: space-between;
   display: block;
   margin: 4px auto;
 }
-.cart button:hover{
+.cart-card button:hover{
   cursor: pointer;
   color: white;
   background-color: hotpink;
+}
+
+.cart-card .container{
+  flex-direction: column;
+}
+.cart-card .card{
+  width: 80%;
+  margin: 5px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart-card .card img{
+  width: 50px;
+  height: 50px;
 }

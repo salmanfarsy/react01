@@ -42,7 +42,7 @@ closeCard = () =>{
           {cards}
         </main> 
         <aside>
-        <Cart totalFans={totalFans} anime={this.state.selectedAnime} closeBtn ={this.closeCard}/>
+        <Cart animeInCart ={this.state.animeInCart} totalFans={totalFans} anime={this.state.selectedAnime} closeBtn ={this.closeCard}/>
         </aside>
         </div>
           
