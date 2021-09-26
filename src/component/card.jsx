@@ -1,6 +1,6 @@
 import React from 'react'
-
-const Card = ({title, image, rating, members, released, episodes}) => {
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+const Card = ({title, image, rating, members, released, episodes, addBtn}) => {
     return (
         <div className='card'>
             <h2>Title: {title}</h2>
@@ -9,6 +9,13 @@ const Card = ({title, image, rating, members, released, episodes}) => {
             <p>Fan Members :{members} </p>
             <p>Released Year: {released}</p>
             <p>Episodes: {episodes}</p>
+         
+            {addBtn?  <button onClick={addBtn.bind(this, title)}    icon="coffee" > 
+              <FontAwesomeIcon icon="shopping-cart" />   
+               Add to Cart</button> 
+              : 
+              null}
+        
         </div>
     )
 }

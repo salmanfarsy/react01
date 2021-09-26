@@ -5,6 +5,23 @@
   text-align: center;
   word-break: break-word;
 }
+header{
+  box-shadow: 0 0 5px 2px dimgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4%;
+}
+nav{
+  display: flex;
+}
+nav h4{
+  margin: 5px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
 
 img{
   width:150px;
@@ -12,7 +29,7 @@ img{
   border-radius: 100px;
 }
 main{
-  width: 80%;
+  width: 70%;
   margin: 10px auto;
 display: flex;
 flex-wrap: wrap;
@@ -25,4 +42,48 @@ justify-content: space-between;
   margin: 10px;
   box-shadow: 0 0 5px 2px dimgray;
   padding: 5px;
+}
+.card button{
+  color: royalblue;
+  border-color: royalblue;
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 5px;
+  display: block;
+  margin: 4px auto;
+}
+.card button:hover{
+  cursor: pointer;
+  color: white;
+  background-color: royalblue;
+}
+
+.cart{
+  margin: 10px;
+  box-shadow: 0 0 5px 2px dimgray;
+  padding: 20px;
+  font-size: 15px;
+}
+.cart .card{
+  width: 80%;
+  margin: 10px;
+  box-shadow: 0 0 5px 2px dimgrey;
+  padding: 15px;
+  margin: 5px;
+  margin: auto;
+}
+
+.cart button{
+  color: hotpink;
+  border-color: hotpink;
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 5px;
+  display: block;
+  margin: 4px auto;
+}
+.cart button:hover{
+  cursor: pointer;
+  color: white;
+  background-color: hotpink;
 }

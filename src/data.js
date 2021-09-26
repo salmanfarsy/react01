@@ -1,11 +1,11 @@
 export const Animes =[
-    {
+    {   
         title:'Full Metal Alchemmist : Brotherhood',
         image:'http://4.bp.blogspot.com/-90rAPKXbNR8/UU93FZ7gAaI/AAAAAAAABe0/670PGjOoEEA/s1600/fullmetal-alchemist-brotherhood-15.jpg',
         rating:'9.6',
         released:'2009',
         episodes:'64',
-        members:'2,631,602'
+        members:'2631602'
     },
     {
         title:'Dragon Ball Z',
@@ -13,7 +13,7 @@ export const Animes =[
         rating:'8.15',
         released:'1989',
         episodes:'291',
-        members:'1,016,848'
+        members:'1016848'
     },
     {
         title:'Death Note',
@@ -21,7 +21,7 @@ export const Animes =[
         rating:'8.63',
         released:'2006',
         episodes:' 37',
-        members:'3,093,903'
+        members:'3093903'
     },
     {
         title:'Naruto: Shippuuden',
@@ -29,7 +29,7 @@ export const Animes =[
         rating:'8.21',
         released:'2007',
         episodes:'500',
-        members:'1,884,084'
+        members:'1884084'
     },
     {
         title:'Bleach',
@@ -37,7 +37,7 @@ export const Animes =[
         rating:'7.81',
         released:'2004',
         episodes:'366',
-        members:'1,484,950'
+        members:'1484950'
     },
     {
         title:'Hunter x Hunter',
@@ -45,7 +45,7 @@ export const Animes =[
         rating:'9.06',
         released:'2011',
         episodes:'148',
-        members:'2,102,879'
+        members:'2102879'
     },
     {
         title:'Monster',
@@ -53,7 +53,7 @@ export const Animes =[
         rating:'8.80',
         released:'2004',
         episodes:'74',
-        members:'747,655'
+        members:'747655'
     },
     {
         title:'One Punch Man',
@@ -61,7 +61,7 @@ export const Animes =[
         rating:'8.53',
         released:'2015',
         episodes:'12',
-        members:'2,531,076'
+        members:'2531076'
     },
     {
         title:'Attack on Titan',
@@ -69,6 +69,6 @@ export const Animes =[
         rating:'8.51',
         released:'2013',
         episodes:'25',
-        members:'3,077,960'
+        members:'3077960'
     }
 ]
